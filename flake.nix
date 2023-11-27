@@ -80,7 +80,7 @@
               just
               cargo-watch
               rust-analyzer
-              (python3.withPackages (ps: with ps; [notebook]))
+              (python3.withPackages (ps: with ps; [ notebook ]))
               evcxr
             ]);
           };
